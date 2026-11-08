@@ -1,39 +1,50 @@
-# 🚀 Java Spring MVC - Xây Dựng FullStack Website với Spring Boot
+1. Java Core — Nền tảng ngôn ngữ
 
-This is the **starter project** for the **Java Spring MVC - Xây Dựng FullStack Website với Spring Boot** course by **Hỏi Dân IT**.
+Hiểu biến, kiểu dữ liệu, class, object, method, constructor, kế thừa, interface, đóng gói, Collections và xử lý ngoại lệ.
 
----
+Đặc biệt phải hiểu Class và Object, vì hầu hết cấu trúc dự án Java đều dựa trên chúng.
 
-## 📢 IMPORTANT NOTICE  
-This source code is provided **exclusively for enrolled students** in this course.  
-❌ **DO NOT UPLOAD this code to GitHub (Public), GitLab, or any other public repository.**  
-❌ **DO NOT SHARE this project on forums, Telegram, Discord, or social media.**  
-✅ You **can use Git** for personal learning, but **your repository must be PRIVATE**.
 
-💡 **Violators may face:**  
-- DMCA takedown requests.  
-- Account suspension on learning platforms.  
-- Legal action in serious cases.  
 
-📩 For inquiries, contact: **admin@hoidanit.vn**
 
----
+2. JDK, JVM và Maven — Java được chạy như thế nào?
 
-## 📖 How to Use This Project?
+JDK cung cấp công cụ phát triển và biên dịch. JVM thực thi bytecode Java. Maven quản lý dependency, build và test.
 
-===
-Môi trường chạy dự án: Java 17
+File pom.xml thuộc Maven, không phải điểm khởi động Java.
 
-## Về tác giả
-Mọi thông tin về Tác giả Hỏi Dân IT, các bạn có thể tìm kiếm tại đây:
 
-Website chính thức: https://hoidanit.vn/
 
-Youtube “Hỏi Dân IT” : https://www.youtube.com/@hoidanit
 
-Tiktok “Hỏi Dân IT” :  https://www.tiktok.com/@hoidanit
+3. Spring Core — Cách các lớp kết nối
 
-Fanpage “Hỏi Dân IT” : https://www.facebook.com/askITwithERIC/
+Hiểu Bean, Dependency Injection, IoC và component scanning.
 
-Udemy Hỏi Dân IT: https://www.udemy.com/user/eric-7039/
+Ví dụ Spring có thể tự tạo ProductService và truyền vào ProductController thông qua constructor, thay vì bạn tự khởi tạo thủ công ở mọi nơi.
 
+
+
+
+4. Spring MVC và HTTP — Cách nhận yêu cầu
+
+Hiểu GET, POST, PUT, DELETE, HTTP status, JSON, Controller, routing và validation.
+
+Đây là phần giúp website hoặc ứng dụng khác giao tiếp với backend Java.
+
+
+
+
+5. SQL, JPA và Hibernate — Cách lưu dữ liệu
+
+Hiểu database, bảng, khóa chính, khóa ngoại, quan hệ dữ liệu, transaction và Repository.
+
+Chẳng hạn điện thoại thuộc danh mục nào, đơn hàng có những sản phẩm nào.
+
+
+
+
+6. Security, Testing và kiến trúc hệ thống
+
+Hiểu xác thực, phân quyền, mã hóa mật khẩu, kiểm thử, xử lý lỗi, logging và quản lý transaction.
+
+Đây là những yếu tố cần thiết khi chuyển từ dự án học tập sang ứng dụng thực tế.
