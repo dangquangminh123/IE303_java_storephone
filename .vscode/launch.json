@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run StorePhone Desktop (Java Swing)",
+            "request": "launch",
+            "mainClass": "com.storephone.Main",
+            "projectName": "storephone-swing",
+            "cwd": "${workspaceFolder}",
+            "encoding": "UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Seed Admin Account",
+            "request": "launch",
+            "mainClass": "com.storephone.util.SeedAdmin",
+            "projectName": "storephone-swing",
+            "cwd": "${workspaceFolder}",
+            "encoding": "UTF-8"
+        }
+    ]
+}

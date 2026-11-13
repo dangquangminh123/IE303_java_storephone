@@ -1,37 +1,41 @@
-HELP.md
+# Maven build output
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.metadata/
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Local database & runtime configuration (NEVER commit credentials)
+config.properties
+.env
+.env.*
 
-### IntelliJ IDEA ###
-.idea
+# Runtime uploaded images & logs
+data/
+logs/
+
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
 
-# Mac
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# macOS
 .DS_Store
